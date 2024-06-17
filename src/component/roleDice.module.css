@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.roleDiceContainer{
+    margin-top: 50px;
+}
+
+.heading{
+    margin: 50px 0;
+}
+
+.inputBox{
+    width: 300px;
+    border: none;
+    padding: 15px;
+    outline: none;
+    font-size: 16px;
+    text-align: left;
+    border-bottom: 2px dashed grey;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.flipDiceBtn {
+    width: 100px;
+    border: none;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: #007bff ;
+}
+
+.para{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.diceContainer{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:center;
+    /* width: 800px; */
+}
+
+.diceImg{
+    margin: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .diceContainer{
+        width: 800px;
+    }
+}

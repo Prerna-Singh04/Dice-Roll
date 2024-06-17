@@ -1,0 +1,12 @@
+.routeContainer{
+  display: flex;
+  width: 200px;
+  margin: 20px auto;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.routeLinks{
+  text-decoration: none;
+}
